@@ -1,10 +1,14 @@
 package com.springcore.autowiring;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 // we will inject Department bean through Spring autowiring.
 public class Employee {
     private int eid;
     private String ename;
+@Autowired
     private Department department;
+    
     public int getEid() {
         return eid;
     }
@@ -23,6 +27,7 @@ public class Employee {
     public void setDepartment(Department department) {
         this.department = department;
     }
+    
     public void showEployeeDetails(){
         System.out.println("Employee Id : " + eid);
         System.out.println("Employee Name : " + ename);

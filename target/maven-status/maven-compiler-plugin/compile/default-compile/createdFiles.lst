@@ -1,0 +1,9 @@
+com\springcore\autowiring\Department.class
+com\springcore\annotationAutowired\Dept.class
+com\springcore\autowiring\AutowiringdemoApplication.class
+com\springcore\autowiring\Employee.class
+com\springcore\App.class
+com\springcore\annotationAutowired\Tests.class
+com\springcore\lifecycle\LifecycleLearn.class
+com\springcore\lifecycle\Test.class
+com\springcore\annotationAutowired\Emp.class
