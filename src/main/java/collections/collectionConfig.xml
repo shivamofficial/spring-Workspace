@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean class="collections.Customer" name="collection">
+		
+	<property name="phones">
+		<list>
+	<value>1</value>
+	<value>2</value>
+	<value>3</value>
+	<value>4</value>
+	<value>5</value>
+	</list>
+	</property>
+	<property name="address">
+		<set>
+	<value>adsfd</value>
+	<value>dsfv</value>
+	<value>dsf</value>
+	<value>df</value>
+	<value>dvf</value>
+	</set>
+	</property>
+	
+<property name="course">
+<map>
+<entry key="java" value="2month"></entry>
+<entry key="c" value="1month"></entry>
+<entry key="cpp" value="3month"></entry>
+<entry key="python" value="1month"></entry>
+<entry key="javasacript" value="2 month"></entry>
+
+</map>
+
+</property>	
+	<!-- java.util.Properties -->
+		<property name="pros">
+			<props>
+				<prop key="admin">admin@nospam.com</prop>
+				<prop key="support">support@nospam.com</prop>
+			</props>
+		</property>
+	
+	
+	</bean>
+
+</beans>
