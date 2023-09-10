@@ -12,4 +12,9 @@
                            
                           <context:component-scan base-package="stereotypeComponentAnnotation" />
                            
+                            <util:list list-class="java.util.Vector" id="deg" >
+ 
+   <value>BA</value>
+  <value>MA</value>
+ </util:list>
                            </beans>
