@@ -13,7 +13,12 @@ public class Test {
 		Students students=context.getBean("students",Students.class);
 		System.out.println(students);
 		
+		System.out.println(students.hashCode()); // 1351478315
 		
+		Students students1=context.getBean("students",Students.class);
+		
+		System.out.println(students1.hashCode()); // 1351478315
 	}
 
 }
+ // every time it give a same object so it is singletone scope

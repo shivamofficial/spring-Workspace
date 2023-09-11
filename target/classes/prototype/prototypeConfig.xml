@@ -10,12 +10,11 @@
                            http://www.springframework.org/schema/util
                            http://www.springframework.org/schema/util/spring-util.xsd">
                            
-                          <context:component-scan base-package="stereotypeComponentAnnotation" />
-                           
-    <util:list list-class="java.util.Vector" id="deg" >
- 
-   <value>BA</value>
-  <value>MA</value>
- </util:list>
+
+
+
+<bean class="prototype.Teachers" name="teacherBean"  scope = "prototype"/>
+
+
    </beans>
    
